@@ -107,7 +107,7 @@ jobs:
      # Pull repo to test machine
      - uses: actions/checkout@v4
      # Configures the deno version used on GitHub-hosted runners
-     - uses: denoland/setup-deno@v1
+     - uses: denoland/setup-deno@v2
        with:
          # Run with latest stable Deno
          deno-version: v1.x
