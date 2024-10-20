@@ -2,11 +2,18 @@
 /**
  * Module dependencies.
  */
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import { should } from 'chai';
 
-var stylus = require('../')
-  , fs = require('fs')
-  , isWindows = process.platform === 'win32'
-  , should = require('chai').should();
+should();
+
+var __filename = fileURLToPath(import.meta.url);
+var __dirname = dirname(__filename);
+var stylusCJS = await import('../index.js');
+var stylus = stylusCJS.default;
+var isWindows = process.platform === 'win32';
 
 // integration cases
 
