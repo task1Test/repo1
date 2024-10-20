@@ -1,3 +1,8 @@
+0.64.0 / 2024-10-20
+===================
+  * drop node v14 support [#2899](https://github.com/stylus/stylus/pull/2899)
+  * upgrading glob eliminates outdated dependency issues [#2899](https://github.com/stylus/stylus/pull/2899)
+
 0.63.0 / 2024-03-05
 ===================
   * update vulnerable dependency [#2861](https://github.com/stylus/stylus/pull/2861)
