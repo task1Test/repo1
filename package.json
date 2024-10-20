@@ -18,7 +18,7 @@
   "main": "./index.js",
   "browserify": "./lib/browserify.js",
   "engines": {
-    "node": "*"
+    "node": ">=16"
   },
   "bin": {
     "stylus": "./bin/stylus"
@@ -30,7 +30,7 @@
   "dependencies": {
     "@adobe/css-tools": "~4.3.3",
     "debug": "^4.3.2",
-    "glob": "^7.1.6",
+    "glob": "^10.4.5",
     "sax": "~1.4.1",
     "source-map": "^0.7.3"
   },
