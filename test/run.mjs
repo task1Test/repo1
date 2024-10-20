@@ -4,7 +4,7 @@
  */
 
 import fs from 'fs';
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 import { should } from 'chai';
 
