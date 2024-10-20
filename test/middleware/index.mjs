@@ -1,5 +1,11 @@
-var stylus = require('../../')
-  , fs = require('fs');
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+var __filename = fileURLToPath(import.meta.url);
+var __dirname = dirname(__filename);
+var stylusCJS = await import('../../index.js');
+var stylus = stylusCJS.default;
 
 describe('middleware', function() {
     var res = {};
