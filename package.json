@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/stylus/stylus"
+    "url": "git://github.com/stylus/stylus.git"
   },
   "main": "./index.js",
   "browserify": "./lib/browserify.js",
@@ -21,7 +21,7 @@
     "node": ">=16"
   },
   "bin": {
-    "stylus": "./bin/stylus"
+    "stylus": "bin/stylus"
   },
   "scripts": {
     "prepublish": "npm prune",
