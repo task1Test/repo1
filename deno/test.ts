@@ -21,7 +21,7 @@ testDirs.forEach((testDir) => {
     .filter(function (file) {
       if (testDir === "test/" && file === "deno.js") return false;
 
-      return file.slice(-3) === ".mjs";
+      return file.slice(-4) === ".mjs";
     })
     .forEach(function (file) {
       mocha.addFile(path.join(testDir, file));
