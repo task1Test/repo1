@@ -5,7 +5,7 @@
 
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import { dirname } from 'node:path';
 import { should } from 'chai';
 
 should();

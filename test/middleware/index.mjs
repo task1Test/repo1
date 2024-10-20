@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import { dirname } from 'node:path';
 
 var __filename = fileURLToPath(import.meta.url);
 var __dirname = dirname(__filename);
