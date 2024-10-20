@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-import fs from 'fs';
+import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 import { should } from 'chai';
