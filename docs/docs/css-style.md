@@ -50,7 +50,7 @@ form input {
 }
 ```
 
-While Stylus don't support _every_ possible CSS-like syntax, it can understand even such code:
+While Stylus doesn't support _every_ possible CSS-like syntax, it can understand even such code:
 
 ```stylus
       border-radius() {
